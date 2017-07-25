@@ -1,0 +1,20 @@
+{
+    "name": "dunaev/adserver-client",
+    "description": "client interface for api",
+    "type": "linrary",
+    "require": {
+        "symfony/http-foundation": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "Alexander Dunaev",
+            "email": "alexander.dunaev@together.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+          "AdServer\\Client\\": "src"
+        }
+    }
+}
